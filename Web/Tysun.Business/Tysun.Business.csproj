@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tysun.Database\Tysun.Database.csproj" />
+    <ProjectReference Include="..\Tysun.Domain\Tysun.Domain.csproj" />
+    <ProjectReference Include="..\Tysun.Utility\Tysun.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
